@@ -16,8 +16,8 @@ public class Programming_Lab1_Question2 {
             usersInput = sc.nextInt();
 
             randomNumber = rand.nextInt(100);
-            int limit = 0;
-            boolean pE = false;
+            int limit = 0; //user chances counter
+            boolean pE = false; //program end boolean
 
             System.out.print("Enter Your First Attempt: ");
             usersInput = sc.nextInt();
